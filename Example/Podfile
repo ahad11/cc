@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'cc_Example' do
+  pod 'cc', :path => '../'
+
+  target 'cc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
